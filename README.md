@@ -45,6 +45,6 @@
 1. Usage
 
     ```sh
-    conda activate palom3
+    conda activate palom
     palom -f /path/to/your/image/directory -r referenceImage.ome.tif
     ```
