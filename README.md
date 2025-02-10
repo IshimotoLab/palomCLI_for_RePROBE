@@ -1,6 +1,6 @@
 # palomCLI
 
-## How to use
+## How to make your conda environment
 
 1. Copy `palomCLI.py` to your conda environment of palom.
 
@@ -14,6 +14,7 @@
 
     ```sh
     conda activate palom
+    pip install natsort
     ```
 
 1. Now you can use palom with one-liner!
