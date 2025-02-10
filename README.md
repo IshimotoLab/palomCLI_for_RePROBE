@@ -1,16 +1,24 @@
 # palomCLI
 
-## How to make your conda environment
+description
 
-1. Copy `palomCLI.py` to your conda environment of palom.
+## How to use
+
+### Step1
+
+Create your `palom` environment for `RePROBE`.
+
+1. Create conda environment and install `palom` according to [instruction](https://github.com/labsyspharm/palom).
+
+1. Copy `palomCLI.py` to your `palom` environment.
 
     ```sh
-    cp palomCLI.py /PathToYourConda/envs/YourPalomEnvName/lib/python3.10/site-packages/palom/cli/palomCLI.py
+    cp palomCLI.py /PathToYourConda/envs/palom/lib/python3.10/site-packages/palom/cli/palomCLI.py
     ```
 
     You have to change the path according to your installed python version.
 
-1. Activate your `palom` environment.
+1. Activate your `palom` environment and install `natsort`.
 
     ```sh
     conda activate palom
@@ -42,6 +50,10 @@
 
     You need to activate your conda environment for Palom before using ME
     ```
+
+### Step2
+
+1. Create your image directory
 
 1. Usage
 
