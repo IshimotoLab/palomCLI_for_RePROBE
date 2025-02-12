@@ -67,16 +67,16 @@ Create your `palom` environment for `RePROBE`.
     ```
 
     > You must change file names according to naming conventions.  
-    > **"sample name"**_**"channel names"**.ome.tif
+    > **`sample name`**_**`channel names`**.ome.tif
 
-    - sample name: Do not include underscores or spaces.
-    - channel names: List of multiple channnel name.
+    - `sample name`: Do not include underscores or spaces.
+    - `channel names`: List of multiple channnel name.
         - The first channel is always DNA channel. (e.g. DAPI, Hoechst)  
             If the DNA channel is not in the first channel, you must arrange the channel order.
-        - The name of the DNA channel must be "DNA" + cycle number. (e.g. DNA1)
+        - The name of the DNA channel must be `DNA` + cycle number. (e.g. DNA1)
         - Do not use underscores or spaces in each channel name.
         - Each channel name is separated by an underscore.
-    - "sample name" and "channel name" are separated by an underscore.
+    - `sample name` and `channel name` are separated by an underscore.
 
 2. Usage
 
