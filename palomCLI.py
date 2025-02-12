@@ -13,8 +13,8 @@ psr = argparse.ArgumentParser(
     epilog = 'You need to activate your conda environment for Palom before using ME'
 )
 
-psr.add_argument('-f', '--folderPath', required=True, help=r'Path to the directory where your image files are stored (exsample: /home/labishimoto/workspace/palom_data)')
-psr.add_argument('-r', '--refName', required=True, help=r'File name for reference image  (exsample: H11-05390_DNA1_Pan-CK_aSMA.ome.tif)')
+psr.add_argument('-f', '--folderPath', required=True, help=r'Path to the directory where your image files are stored (example: /home/labishimoto/workspace/palom_data)')
+psr.add_argument('-r', '--refName', required=True, help=r'File name for reference image  (example: H11-05390_DNA1_Pan-CK_aSMA.ome.tif)')
 psr.add_argument('-o', '--outputName', default='merge_palom_result', help=r'File name for output image (default: merge_palom_result)')
 
 args = psr.parse_args()

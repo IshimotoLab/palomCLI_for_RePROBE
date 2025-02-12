@@ -39,10 +39,10 @@ Create your `palom` environment for `RePROBE`.
       -h, --help            show this help message and exit
       -f FOLDERPATH, --folderPath FOLDERPATH
                             Path to the directory where your image  files are
-                            stored (exsample:
+                            stored (example:
                             /home/labishimoto/workspace/palom_data)
       -r REFNAME, --refName REFNAME
-                            File name for reference image (exsample:
+                            File name for reference image (example:
                             H11-05390_DNA1_Pan-CK_aSMA.ome.tif)
       -o OUTPUTNAME, --outputName OUTPUTNAME
                             File name for output image (default:
