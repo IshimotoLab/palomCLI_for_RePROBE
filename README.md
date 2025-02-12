@@ -53,7 +53,7 @@ Create your `palom` environment for `RePROBE`.
 
 ### Step2
 
-1. Create your image directory containing your `OME-TIFF` format files.
+1. Create your image directory containing `OME-TIFF` format files.
 
     Example directory;
 
