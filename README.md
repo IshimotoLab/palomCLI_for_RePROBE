@@ -1,6 +1,6 @@
-# palomCLI
+# palomCLI for RePROBE
 
-description
+Image registration tool for RePROBE (**Re**petitive **P**rimary antibody **R**eplacement and **O**verlaying images from a **B**road range of fluorescence imaging **E**quipment). This tool is based on [labsyspharm/palom](https://github.com/labsyspharm/palom).
 
 ## How to use
 
@@ -10,10 +10,10 @@ Create your `palom` environment for `RePROBE`.
 
 1. Create conda environment and install `palom` according to the [instruction](https://github.com/labsyspharm/palom).
 
-1. Copy `palomCLI.py` to your `palom` environment.
+1. Copy `palomCLI4RePROBE.py` to your `palom` environment.
 
     ```sh
-    cp palomCLI.py /PathToYourConda/envs/palom/lib/python3.10/site-packages/palom/cli/palomCLI.py
+    cp palomCLI4RePROBE.py /PathToYourConda/envs/palom/lib/python3.10/site-packages/palom/cli/palomCLI4RePROBE.py
     ```
 
     You have to change the path according to your installed python version.
@@ -40,10 +40,10 @@ Create your `palom` environment for `RePROBE`.
       -f FOLDERPATH, --folderPath FOLDERPATH
                             Path to the directory where your image  files are
                             stored (example:
-                            /home/labishimoto/workspace/palom_data)
+                            /home/ishimotolab/workspace/palom_data)
       -r REFNAME, --refName REFNAME
                             File name for reference image (example:
-                            H11-05390_DNA1_Pan-CK_aSMA.ome.tif)
+                            samplename_DNA1_Pan-CK_aSMA.ome.tif)
       -o OUTPUTNAME, --outputName OUTPUTNAME
                             File name for output image (default:
                             merge_palom_result)
