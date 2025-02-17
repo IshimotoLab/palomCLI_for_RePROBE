@@ -24,7 +24,7 @@ Create your `palom` environment for `RePROBE`.
     Check the details with the help commands.
 
     ```sh
-    (palom) username:~$ palomCLI4RePROBE.py --help
+    (palom) username:~$ python palomCLI4RePROBE.py --help
     usage: palom [-h] -f FOLDERPATH -r REFNAME [-o OUTPUTNAME]
 
     Piecewise alignment for layers of mosaics
