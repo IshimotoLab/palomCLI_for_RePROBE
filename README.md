@@ -10,27 +10,21 @@ Create your `palom` environment for `RePROBE`.
 
 1. Create conda environment and install `palom` according to the [instruction](https://github.com/labsyspharm/palom).
 
-1. Copy `palomCLI4RePROBE.py` to your `palom` environment.
+2. Copy `palomCLI4RePROBE.py` to your PC.
 
-    ```sh
-    cp palomCLI4RePROBE.py /PathToYourConda/envs/palom/lib/python3.10/site-packages/palom/cli/palomCLI4RePROBE.py
-    ```
-
-    You have to change the path according to your installed python version.
-
-1. Activate your `palom` environment and install `natsort`.
+3. Activate your `palom` environment and install `natsort`.
 
     ```sh
     conda activate palom
     pip install natsort
     ```
 
-1. Now you can use palom with one-liner!
+4. Now you can use palom with one-liner!
 
     Check the details with the help commands.
 
     ```sh
-    (palom) username:~$ palom --help
+    (palom) username:~$ palomCLI4RePROBE.py --help
     usage: palom [-h] -f FOLDERPATH -r REFNAME [-o OUTPUTNAME]
 
     Piecewise alignment for layers of mosaics
@@ -82,7 +76,7 @@ Create your `palom` environment for `RePROBE`.
 
     ```sh
     conda activate palom
-    palom -f /path/to/your/imageDir -r sample1_DNA1_Pan-CK_aSMA.ome.tif
+    palomCLI4RePROBE.py -f /path/to/your/imageDir -r sample1_DNA1_Pan-CK_aSMA.ome.tif
     ```
 
 ## Citation
