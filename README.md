@@ -1,6 +1,6 @@
 # palomCLI for RePROBE
 
-Image registration tool for RePROBE (**Re**petitive **P**rimary antibody **R**eplacement and **O**verlaying images from a **B**road range of fluorescence imaging **E**quipment). This tool is based on [labsyspharm/palom](https://github.com/labsyspharm/palom).
+Image registration tool for **RePROBE** (**Re**petitive **P**rimary antibody **R**eplacement and **O**verlaying images from a **B**road range of fluorescence imaging **E**quipment). This tool is based on [labsyspharm/palom](https://github.com/labsyspharm/palom).
 
 ## How to use
 
@@ -84,3 +84,9 @@ Create your `palom` environment for `RePROBE`.
     conda activate palom
     palom -f /path/to/your/imageDir -r sample1_DNA1_Pan-CK_aSMA.ome.tif
     ```
+
+## Citation
+
+Please cite the following paper when using `RePROBE` system in your research:
+
+> Semba, T., Ishimoto, T. Spatial analysis by current multiplexed imaging technologies for the molecular characterisation of cancer tissues. Br J Cancer 131, 1737–1747 (2024). https://doi.org/10.1038/s41416-024-02882-6
