@@ -76,7 +76,7 @@ Create your `palom` environment for `RePROBE`.
 
     ```sh
     conda activate palom
-    palomCLI4RePROBE.py -f /path/to/your/imageDir -r sample1_DNA1_Pan-CK_aSMA.ome.tif
+    python palomCLI4RePROBE.py -f /path/to/your/imageDir -r sample1_DNA1_Pan-CK_aSMA.ome.tif
     ```
 
 ## Citation
